@@ -1,0 +1,10 @@
+C:\Users\tud45816\Desktop\HonorsManagementSystem\HonorsManagementSystem\bin\HonorsManagementSystem.dll
+C:\Users\tud45816\Desktop\HonorsManagementSystem\HonorsManagementSystem\bin\HonorsManagementSystem.pdb
+C:\Users\tud45816\Desktop\HonorsManagementSystem\HonorsManagementSystem\obj\Release\HonorsManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\tud45816\Desktop\HonorsManagementSystem\HonorsManagementSystem\obj\Release\HonorsManagementSystem.dll
+C:\Users\tud45816\Desktop\HonorsManagementSystem\HonorsManagementSystem\obj\Release\HonorsManagementSystem.pdb
+C:\Users\tuc48912\Desktop\HonorsManagementSystem\HonorsManagementSystem\bin\HonorsManagementSystem.dll
+C:\Users\tuc48912\Desktop\HonorsManagementSystem\HonorsManagementSystem\bin\HonorsManagementSystem.pdb
+C:\Users\tuc48912\Desktop\HonorsManagementSystem\HonorsManagementSystem\obj\Release\HonorsManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\tuc48912\Desktop\HonorsManagementSystem\HonorsManagementSystem\obj\Release\HonorsManagementSystem.dll
+C:\Users\tuc48912\Desktop\HonorsManagementSystem\HonorsManagementSystem\obj\Release\HonorsManagementSystem.pdb

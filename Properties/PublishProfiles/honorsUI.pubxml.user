@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>X:\Project1\HonorsUI</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AddProfessor.aspx">
+      <publishTime>03/24/2015 13:28:50</publishTime>
+    </File>
+    <File Include="AddStudent.aspx">
+      <publishTime>03/25/2015 09:31:38</publishTime>
+    </File>
+    <File Include="AddStudentContract.aspx">
+      <publishTime>03/25/2015 12:46:24</publishTime>
+    </File>
+    <File Include="bin/HonorsManagementSystem.dll">
+      <publishTime>04/21/2015 18:19:15</publishTime>
+    </File>
+    <File Include="CommunicationLog.aspx">
+      <publishTime>03/24/2015 13:42:12</publishTime>
+    </File>
+    <File Include="ContractReview.aspx">
+      <publishTime>03/24/2015 13:48:12</publishTime>
+    </File>
+    <File Include="css/bootstrap-theme.css">
+      <publishTime>03/17/2015 22:51:04</publishTime>
+    </File>
+    <File Include="css/bootstrap-theme.css.map">
+      <publishTime>03/17/2015 23:01:52</publishTime>
+    </File>
+    <File Include="css/bootstrap-theme.min.css">
+      <publishTime>01/19/2015 14:03:22</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>03/19/2015 16:13:46</publishTime>
+    </File>
+    <File Include="css/bootstrap.css.map">
+      <publishTime>03/17/2015 22:00:08</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>04/16/2015 17:36:02</publishTime>
+    </File>
+    <File Include="EmailTemplate.aspx">
+      <publishTime>03/24/2015 13:41:24</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>01/18/2015 18:38:06</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>01/18/2015 18:38:06</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>01/18/2015 18:38:06</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>01/18/2015 18:38:06</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>01/18/2015 18:38:06</publishTime>
+    </File>
+    <File Include="GradList.aspx">
+      <publishTime>03/26/2015 16:48:58</publishTime>
+    </File>
+    <File Include="HomePage.aspx">
+      <publishTime>03/25/2015 12:50:54</publishTime>
+    </File>
+    <File Include="images/66a3e0.png">
+      <publishTime>03/23/2015 11:37:06</publishTime>
+    </File>
+    <File Include="images/85e085.png">
+      <publishTime>03/23/2015 11:37:24</publishTime>
+    </File>
+    <File Include="images/ff8080.png">
+      <publishTime>03/23/2015 11:37:52</publishTime>
+    </File>
+    <File Include="images/ff9966.png">
+      <publishTime>03/23/2015 11:41:18</publishTime>
+    </File>
+    <File Include="images/logo.png">
+      <publishTime>03/10/2015 16:21:10</publishTime>
+    </File>
+    <File Include="images/marshallHeadShot.jpg">
+      <publishTime>03/10/2015 16:54:46</publishTime>
+    </File>
+    <File Include="images/temple-university-main-logo.png">
+      <publishTime>03/26/2015 17:40:24</publishTime>
+    </File>
+    <File Include="images/temple-university-main-logo.svg">
+      <publishTime>03/10/2015 23:20:52</publishTime>
+    </File>
+    <File Include="js/bootstrap.js">
+      <publishTime>01/19/2015 14:03:22</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>03/19/2015 16:44:42</publishTime>
+    </File>
+    <File Include="js/npm.js">
+      <publishTime>01/19/2015 13:32:22</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>04/21/2015 18:09:34</publishTime>
+    </File>
+    <File Include="ManageContracts.aspx">
+      <publishTime>03/24/2015 14:32:24</publishTime>
+    </File>
+    <File Include="ManageProfessor.aspx">
+      <publishTime>03/24/2015 14:41:24</publishTime>
+    </File>
+    <File Include="ManageProfResponse.aspx">
+      <publishTime>03/24/2015 13:05:04</publishTime>
+    </File>
+    <File Include="ManageStaff.aspx">
+      <publishTime>03/26/2015 16:23:36</publishTime>
+    </File>
+    <File Include="ManageStatus.aspx">
+      <publishTime>03/24/2015 13:40:12</publishTime>
+    </File>
+    <File Include="ManageStudent.aspx">
+      <publishTime>04/21/2015 18:16:13</publishTime>
+    </File>
+    <File Include="ManageTerm.aspx">
+      <publishTime>03/26/2015 16:36:22</publishTime>
+    </File>
+    <File Include="MasterPage.Master">
+      <publishTime>04/21/2015 18:18:29</publishTime>
+    </File>
+    <File Include="NewStudentContract.aspx">
+      <publishTime>03/26/2015 17:15:46</publishTime>
+    </File>
+    <File Include="ProfFulfil.aspx">
+      <publishTime>04/16/2015 17:39:08</publishTime>
+    </File>
+    <File Include="ReportGen.aspx">
+      <publishTime>04/21/2015 18:16:29</publishTime>
+    </File>
+    <File Include="StudentInfo.aspx">
+      <publishTime>03/24/2015 15:14:54</publishTime>
+    </File>
+    <File Include="Upload.aspx">
+      <publishTime>03/25/2015 09:25:44</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/21/2015 18:15:13</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
