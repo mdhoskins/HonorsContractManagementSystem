@@ -4,12 +4,12 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Honors Contract Management System</title>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-            <script src="js/bootstrap.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <link href="css/bootstrap.css" rel="stylesheet" />
     <link href="css/bootstrap-theme.css" rel="stylesheet" />
     <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -18,7 +18,7 @@
     <!-- Latest compiled and minified JavaScript -->
 
     <style>
-       
+  
     </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -29,13 +29,14 @@
     <form id="form1" runat="server">
 
         <div class="container">
-            <br /><br />
+            <br />
+            <br />
             <nav class="navbar">
-                <%--"nav nav-tabs" role="tablist"--%>
+                <!--"nav nav-tabs" role="tablist"-->
                 <div class="container-fluid" style="border-bottom: 0px">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="HomePage.aspx">
                             <img alt="Brand" src="images/logo.png" />
                         </a>
 
@@ -51,9 +52,9 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            
 
-                            <%--Dropdown for Student--%>
+
+                            <!--Dropdown for Student-->
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Student <span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
@@ -63,7 +64,7 @@
                                 </ul>
                             </li>
 
-                            <%--Dropdown for Professor--%>
+                            <!--Dropdown for Professor-->
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Professor <span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
@@ -73,7 +74,7 @@
                                 </ul>
                             </li>
 
-                            <%--Dropdown for Contracts--%>
+                            <!--Dropdown for Contracts-->
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contract <span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
@@ -81,7 +82,7 @@
                                 </ul>
                             </li>
 
-                            <%--Dropdown for Admin--%>
+                            <!--Dropdown for Admin-->
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Admin <span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
@@ -99,26 +100,28 @@
 
                                 </ul>
                             </li>
-
+                            <!--Button for excel -->
                             <li><a href="Upload.aspx">Upload</a></li>
                             &nbsp
-                            
-                        </ul>
-
-                        <%--Dropdown for Admin actions--%>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li>
-                                <p class="navbar-text navbar-right">Signed in as &nbsp &nbsp &nbsp</p>
-                            </li>
+                            <!--Dropdown for Admin actions-->
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="padding: 15px 0px 15px 0px;">Mark Otto<span class="caret"></span></a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="#">Manage</a></li>
-                                    <li><a href="#">Log Out</a></li>
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li>
+                                        <p class="navbar-text navbar-right">Signed in as &nbsp &nbsp &nbsp</p>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="padding: 15px 0px 15px 0px;">Mark Otto<span class="caret"></span></a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="#">Manage</a></li>
+                                            <li><a href="#">Log Out</a></li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </li>
-
                         </ul>
+
+                        
+
                     </div>
 
                     <!-- /.navbar-collapse -->
@@ -131,99 +134,7 @@
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
 
-        <br />
-        <br />
-
-        <div>
-                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-            </div>
-
-
-        <footer id="#footer">
-            <div class="footer-wrap top">
-                <div class="region region-footer-top">
-
-                    <div id="block-block-4" class="block block-block">
-
-
-                        <div class="content">
-                            <div itemscope="" itemtype="http://schema.org/EducationalOrganization">
-                                <p><span class="h4" itemprop="name">Temple University</span></p>
-                                <div itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
-                                    <p>
-                                        <span itemprop="streetAddress">1801 N. Broad Street</span><br />
-                                        <span itemprop="addressLocality">Philadelphia</span>, <span itemprop="addressRegion">PA</span> <span itemprop="postalCode">19122</span> <span class="hidden" itemprop="addressCountry">USA<br />
-                                            (215) 204-7000</span>
-                                    </p>
-                                </div>
-                            </div>
-                            <p></p>
-                        </div>
-                    </div>
-
-                    <div id="block-menu-menu-info-links" class="block block-menu">
-
-
-                        <div class="content">
-                            <ul class="menu">
-                                <li class="first leaf"><a href="https://directory.temple.edu/" class="icons-directory">Cherry and White Directory</a></li>
-                                <li class="leaf"><a href="/maps-and-directions" class="icons-map">Maps, Directions &amp; Accommodations</a></li>
-                                <li class="last leaf"><a href="/contact" class="icons-phone">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div id="block-block-6" class="block block-block">
-
-
-                        <div class="content">
-                            <ul>
-                                <li class="first"><a class="icons-google icon-link" href="https://plus.google.com/+templeuniversity" target="_blank">Google Plus</a></li>
-                                <li><a class="icons-facebook icon-link" href="http://www.facebook.com/templeu" target="_blank">Facebook</a></li>
-                                <li class="third"><a class="icons-twitter icon-link" href="http://twitter.com/templeuniv" target="_blank">Twitter</a></li>
-                                <li><a class="icons-linkedin icon-link" href="http://us.linkedin.com/company/temple-university" target="_blank">LinkedIn.com</a></li>
-                                <li><a class="icons-youtube icon-link" href="http://www.youtube.com/TempleUniversity" target="_blank">YouTube</a></li>
-                                <li class="last"><a class="icons-instagram icon-link" href="http://instagram.com/templeuniv" target="_blank">Instagram</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-wrap bottom">
-                <div class="region region-footer-bottom">
-
-                    <div id="block-menu-menu-tertiary-links" class="block block-menu">
-
-
-                        <div class="content">
-                            <ul class="menu">
-                                <li class="first leaf"><a href="https://tuportal.temple.edu">TUPortal</a></li>
-                                <li class="leaf"><a href="https://tumail.temple.edu/">TUMail</a></li>
-                                <li class="leaf"><a href="/sitemap">Sitemap</a></li>
-                                <li class="leaf"><a href="/about/temple-university-accessibility-statement">Accessibility</a></li>
-                                <li class="leaf"><a href="http://policies.temple.edu/">Policies</a></li>
-                                <li class="leaf"><a href="http://www.temple.edu/hr/departments/employment/jobs_within.htm">Careers at Temple</a></li>
-                                <li class="last leaf"><a href="http://www.temple.edu/safety/">Safety</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div id="block-block-9" class="block block-block">
-
-
-                        <div class="content">
-                            <p>Copyright 2012-2015, Temple University. All rights reserved.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </footer>
-
-
-
-       
-
+        
 
 
     </form>
