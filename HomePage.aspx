@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">
         
-        <h1 style="color: #a41e35"><b>Dashboard</b></h1>
+        <h1><b>Dashboard</b></h1>
 
         <div class="col-lg-12">
 

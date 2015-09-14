@@ -59,12 +59,12 @@ namespace HonorsManagementSystem
 
         protected void btnSimple_Click(object sender, EventArgs e)
         {
-            MultiView1.ActiveViewIndex = 0;
+            ManagePageViews.ActiveViewIndex = 0;
         }
 
         protected void btnAdvanced_Click(object sender, EventArgs e)
         {
-            MultiView1.ActiveViewIndex = 1;
+            ManagePageViews.ActiveViewIndex = 1;
         }
 
         protected void btnReportGen_Click(object sender, EventArgs e)

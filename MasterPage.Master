@@ -12,7 +12,7 @@
     <link href="css/bootstrap.css" rel="stylesheet" />
     <link href="css/bootstrap-theme.css" rel="stylesheet" />
     <link href="css/bootstrap.min.css" rel="stylesheet" />
-    
+    <link href="css/TempleStandards.css" rel="stylesheet" />
     <!--Do we even need this?? -->
     <!--<link type="text/css" rel="stylesheet" href="http://www.temple.edu/sites/temple/files/css/css_bLnrJvSDMMMrixVK0gKebpAOMgS_nCHw7RJsNvIlMsU.css" media="screen" />-->
 
