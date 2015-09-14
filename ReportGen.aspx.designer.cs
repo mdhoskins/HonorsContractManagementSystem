@@ -13,22 +13,22 @@ namespace HonorsManagementSystem {
     public partial class ReportGen1 {
         
         /// <summary>
-        /// MultiView1 control.
+        /// ManagePageViews control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.MultiView MultiView1;
+        protected global::System.Web.UI.WebControls.MultiView ManagePageViews;
         
         /// <summary>
-        /// viewSimple control.
+        /// StudentManagePageView control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.View viewSimple;
+        protected global::System.Web.UI.WebControls.View StudentManagePageView;
         
         /// <summary>
         /// Label8 control.
@@ -166,13 +166,13 @@ namespace HonorsManagementSystem {
         protected global::System.Web.UI.WebControls.Button btnAdvanced;
         
         /// <summary>
-        /// viewAdvanced control.
+        /// ProfessorManagePageView control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.View viewAdvanced;
+        protected global::System.Web.UI.WebControls.View ProfessorManagePageView;
         
         /// <summary>
         /// Label1 control.
@@ -623,6 +623,15 @@ namespace HonorsManagementSystem {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnSimple;
+        
+        /// <summary>
+        /// ContractManagePageView control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.View ContractManagePageView;
         
         /// <summary>
         /// btnReportGen control.

@@ -3,9 +3,8 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title>Honors Contract Management System</title>
-
+<head id="Head1" runat="server">
+    <title></title>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
@@ -13,12 +12,14 @@
     <link href="css/bootstrap.css" rel="stylesheet" />
     <link href="css/bootstrap-theme.css" rel="stylesheet" />
     <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link type="text/css" rel="stylesheet" href="http://www.temple.edu/sites/temple/files/css/css_bLnrJvSDMMMrixVK0gKebpAOMgS_nCHw7RJsNvIlMsU.css" media="screen" />
+    
+    <!--Do we even need this?? -->
+    <!--<link type="text/css" rel="stylesheet" href="http://www.temple.edu/sites/temple/files/css/css_bLnrJvSDMMMrixVK0gKebpAOMgS_nCHw7RJsNvIlMsU.css" media="screen" />-->
 
     <!-- Latest compiled and minified JavaScript -->
 
     <style>
-  
+       
     </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -26,35 +27,36 @@
 
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" runat="server" class="navbar-form">
 
         <div class="container">
-            <br />
-            <br />
+
             <nav class="navbar">
-                <!--"nav nav-tabs" role="tablist"-->
-                <div class="container-fluid" style="border-bottom: 0px">
-                    <!-- Brand and toggle get grouped for better mobile display -->
+
+                <div class="container-fluid">
+
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="HomePage.aspx">
-                            <img alt="Brand" src="images/logo.png" />
+                        <a class="navbar-brand" href="HomePage.aspx" style="padding: 0">
+                            <img alt="Honors Contract Management System" src="images/logo.png" style="max-height: 100%; max-width: 100%; padding: 0;" />
                         </a>
 
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <!--Navbar toggle collapse button -->
+                        <button type="button" class="navbar-toggle collapsed glyphicon-" data-toggle="collapse" data-target="#HonorsContractNavBar">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="HomePage.aspx">Honors Management System</a>
+
+
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="navbar-collapse collapse" id="HonorsContractNavBar">
                         <ul class="nav navbar-nav">
 
 
-                            <!--Dropdown for Student-->
+                            <%--Dropdown for Student--%>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Student <span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
@@ -64,7 +66,7 @@
                                 </ul>
                             </li>
 
-                            <!--Dropdown for Professor-->
+                            <%--Dropdown for Professor--%>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Professor <span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
@@ -74,7 +76,7 @@
                                 </ul>
                             </li>
 
-                            <!--Dropdown for Contracts-->
+                            <%--Dropdown for Contracts--%>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contract <span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
@@ -82,7 +84,7 @@
                                 </ul>
                             </li>
 
-                            <!--Dropdown for Admin-->
+                            <%--Dropdown for Admin--%>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Admin <span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
@@ -100,41 +102,31 @@
 
                                 </ul>
                             </li>
-                            <!--Button for excel -->
+
                             <li><a href="Upload.aspx">Upload</a></li>
-                            &nbsp
-                            <!--Dropdown for Admin actions-->
-                            <li class="dropdown">
-                                <ul class="nav navbar-nav navbar-right">
-                                    <li>
-                                        <p class="navbar-text navbar-right">Signed in as &nbsp &nbsp &nbsp</p>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="padding: 15px 0px 15px 0px;">Mark Otto<span class="caret"></span></a>
-                                        <ul class="dropdown-menu" role="menu">
-                                            <li><a href="#">Manage</a></li>
-                                            <li><a href="#">Log Out</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
+
                         </ul>
 
-                        
+                        <%--Dropdown for Admin actions--%>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <p class="navbar-text navbar-right">Signed in as &nbsp &nbsp &nbsp</p>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="padding: 15px 0px 15px 0px;">Mark Otto<span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">Manage</a></li>
+                                    <li><a href="#">Log Out</a></li>
+                                </ul>
+                            </li>
 
+                        </ul>
                     </div>
-
-                    <!-- /.navbar-collapse -->
-
-                    <!-- /.container-fluid -->
                 </div>
             </nav>
         </div>
-
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
-
-        
 
 
     </form>
