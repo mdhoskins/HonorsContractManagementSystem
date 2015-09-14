@@ -44,3 +44,6 @@ C:\Users\tud45816.TU\Desktop\HonorsContractManagementSystem\obj\Debug\HonorsMana
 C:\Users\tud45816.TU\Desktop\HonorsContractManagementSystem\obj\Debug\HonorsManagementSystem.pdb
 C:\Users\tud45816\Documents\GitHub\HonorsContractManagementSystem\obj\Debug\HonorsManagementSystem.csprojResolveAssemblyReference.cache
 C:\Users\tud45816\Documents\GitHub\HonorsContractManagementSystem\obj\Debug\HonorsManagementSystem.dll
+C:\Users\tud45816\Documents\GitHub\HonorsContractManagementSystem\bin\HonorsManagementSystem.dll
+C:\Users\tud45816\Documents\GitHub\HonorsContractManagementSystem\bin\HonorsManagementSystem.pdb
+C:\Users\tud45816\Documents\GitHub\HonorsContractManagementSystem\obj\Debug\HonorsManagementSystem.pdb
